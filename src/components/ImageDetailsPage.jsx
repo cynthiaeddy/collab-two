@@ -3,13 +3,10 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import './ImageDetailsPage.css';
 
 export const ImageDetailsPage = (props) => {
-	console.log('in card', props);
-
 	const location = useLocation();
 	const navigate = useNavigate();
 	const { from } = location.state;
 	const IMAGE_ID = from;
-	console.log(from, IMAGE_ID);
 
 	const goBack = () => {
 		navigate(-1);
@@ -17,7 +14,6 @@ export const ImageDetailsPage = (props) => {
 
 	return (
 		<>
-			hi
 			<div className="card-image">
 				<img
 					alt={''}

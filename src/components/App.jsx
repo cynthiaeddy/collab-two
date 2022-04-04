@@ -24,7 +24,6 @@ export function App() {
 		// our UI, we need to make real requests!
 		// @see: ./src/uitls/api.js
 		searchArtworks(query).then((json) => {
-			console.log(json);
 			setResults(json.data);
 		});
 	}
