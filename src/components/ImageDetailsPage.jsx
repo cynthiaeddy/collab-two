@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './ImageDetailsPage.css';
 
-export const ImageDetailsPage = (props) => {
+export const ImageDetailsPage = () => {
 	const location = useLocation();
 	const navigate = useNavigate();
 	const { from } = location.state;
