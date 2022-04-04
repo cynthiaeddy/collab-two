@@ -1,0 +1,28 @@
+.cards-container {
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.card {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	width: 20%;
+	margin: 2rem;
+	padding: 1.5rem;
+	cursor: pointer;
+}
+.card-image {
+	margin: auto;
+}
+.card-image img {
+	width: 50rem;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.btn {
+	width: 200px;
+	margin: auto;
+}
